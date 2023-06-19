@@ -120,18 +120,7 @@ function AboutSection() {
               |
             </p>
           </p>
-          <p className="about-text-item">
-            Brandmeldeanlagen
-            <p
-              style={{
-                color: "black",
-                margin: "0",
-                paddingLeft: "0.5rem",
-              }}
-            >
-              |
-            </p>
-          </p>
+          <p className="about-text-item">Brandmeldeanlagen</p>
         </div>
       </div>
     </div>
