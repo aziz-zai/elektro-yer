@@ -12,9 +12,9 @@ function NavBar() {
         <div className="navbar-btns">
           <button className="navbar-btn">
             <BsTelephoneForwardFill size={22} />
-            <p>0711 34217995</p>
+            <p className="navbar-btn-p">0711 34217995</p>
           </button>
-          <button className="navbar-btn">
+          <button className="navbar-btn2">
             <GrMail size={22} />
             <p>info@elektro-yer.de</p>
           </button>

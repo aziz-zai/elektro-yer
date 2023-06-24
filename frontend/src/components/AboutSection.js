@@ -24,7 +24,7 @@ function AboutSection() {
         </div>
       </div>
       <div className="about-text">
-        <img src={section_img} alt="sectionimg" />
+        <img className="about-text-img" src={section_img} alt="sectionimg" />
         <div className="about-text-wrapper">
           <p className="about-text-item">Beratung</p>
           <p className="about-text-item">Neu-& Altbauinstallation</p>

@@ -16,7 +16,7 @@ function HomeSection() {
           <button className="home-btn">Mehr erfahren</button>
         </div>
         <div>
-          <img src={homeImg} alt="homebild" />
+          <img className="home-img" src={homeImg} alt="homebild" />
         </div>
       </div>
       <div class="divider">
