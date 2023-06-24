@@ -1,4 +1,5 @@
 import React from "react";
+import { GrMail } from "react-icons/gr";
 import homeImg from "../assets/homeImg.png";
 import "./Styling.css";
 function HomeSection() {
@@ -7,13 +8,19 @@ function HomeSection() {
       <div className="home-content">
         <div className="home-content-left">
           <h2 className="home-content-left-h2">
-            Elektro Yer bringt den ersehnten Frieden zwischen Elektronen und
-            Protonen.
+            Elektro Yer - Ihr Partner für Elektroinstallationen in Herrenberg
+            und Umgebung.
           </h2>
           <p className="home-content-left-p">
-            Frieden ist nur durch Wandel möglich
+            Egal ob Sie langfristige Elektroinstallationen planen oder bei
+            spontanen Elektro-Notfällen Hilfe benötigen – wir sind für Sie da.
+            Melden Sie sich einfach telefonisch oder per E-Mail.
           </p>
-          <button className="home-btn">Mehr erfahren</button>
+          <button className="home-btn">
+            {" "}
+            <GrMail size={22} />
+            info@elektro-yer.de
+          </button>
         </div>
         <div>
           <img className="home-img" src={homeImg} alt="homebild" />
