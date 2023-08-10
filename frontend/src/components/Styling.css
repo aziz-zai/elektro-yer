@@ -2,7 +2,8 @@
 .navbar-container{
     display: flex;
     justify-content: center;
-    margin-top:.5rem;
+    align-items: center;
+    height: 3.75rem;
 }
 
 .navbar-wrapper{
@@ -18,13 +19,20 @@
         flex-direction: column;
         margin-bottom: .5rem;
     }
+    .navbar-container{
+        height: 8rem;
+    }
 }
 
 .home-background{
-    background: rgb(252,176,69);
-    background: radial-gradient(circle, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+    background-image: 
+    linear-gradient(
+      320deg in srgb, 
+      #9D0AC6 0%, 31%, rgb(95% 28% 7%) 91% 91%
+    )
+  ;
     position: relative;
-    height: 600px;
+    height: 80vh;
     display: flex;
     justify-content: center;
 }
@@ -67,6 +75,7 @@
     align-items: flex-start;
     color: white;
     width: 55%;
+    z-index: 2;
 }
 
 .home-content-left-h2{
@@ -136,6 +145,9 @@
 .home-img{
     width:500px;
 }
+.home-img-wrapper{
+    z-index: 3;
+}
 @media screen and (max-width: 1000px) {
     .home-img{
         width:400px;
@@ -157,10 +169,6 @@
     }
 }
 
-.home-btn:hover{
-background: #715df2c9;
-transform: scale(1.02)
-}
 
 .navbar-btns{
     display: flex;
@@ -176,30 +184,33 @@ transform: scale(1.02)
     line-height: 0;
     transform: rotate(180deg);
 }
+@media screen and (max-width: 1300px) {
+    .divider{
+        display: none;
+    }
+}
 
 .divider svg {
     position: relative;
     display: block;
-    width: calc(116% + 1.3px);
-    height: 70px;
+    width: calc(156% + 1.3px);
+    height: 347px;
 }
-
 .divider .shape-fill {
     fill: #FFFFFF;
 }
 
 .navbar-logo{
-width: 200px;
+width: 130px;
 }
 
 .navbar-btn{
-    border-radius: 50px;
     background: white;
-    border: 3px solid #d05706;
+    border: 1.8px solid #190020;
     white-space: nowrap;
-    padding: 0 2rem;
+    padding: 0 0.5rem 0  1.75rem;
     color: black;
-    font-size: 1rem;
+    font-size: .8rem;
     outline: none;
     cursor: pointer;
     display: flex;
@@ -210,18 +221,14 @@ width: 200px;
     display: flex;
     gap: 1rem;
 }
-.navbar-btn:hover{
-background: #d05706d3;
-transform: scale(1.02)
-}
+
 .navbar-btn2{
-    border-radius: 50px;
     background: white;
-    border: 3px solid #d05706;
+    border: 1.8px solid #190020;
     white-space: nowrap;
-    padding: 0 2rem;
+    padding: 0 0.5rem 0  1.75rem;
     color: black;
-    font-size: 1rem;
+    font-size: .8rem;
     outline: none;
     cursor: pointer;
     display: flex;
@@ -232,9 +239,8 @@ transform: scale(1.02)
     display: flex;
     gap: 1rem;
 }
-.navbar-btn2:hover{
-background: #d05706d3;
-transform: scale(1.02)
+.navbar-btn-p{
+    margin-left: 0.5rem
 }
 
 @media screen and (max-width: 500px) {
