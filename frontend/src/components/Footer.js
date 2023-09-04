@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="footer-text">
         <div className="col-2">
           <h3>Bilal Yer</h3>
-          <p className="footer-p">Nagoldener Straße 4</p>
+          <p className="footer-p">Nagolder Straße 4</p>
           <p className="footer-p">71131 Jettingen</p>
-          <p className="footer-p">Deutschladn</p>
+          <p className="footer-p">Deutschland</p>
         </div>
         <div className="col-3">
           <h3>Kontakt</h3>

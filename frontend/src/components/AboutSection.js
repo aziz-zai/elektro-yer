@@ -36,6 +36,7 @@ function AboutSection() {
           <p className="about-text-item">Zählerplatzanlagen</p>
           <p className="about-text-item">Photovoltaikanlagen</p>
           <p className="about-text-item">Brandmeldeanlagen</p>
+          <p className="about-text-item-usw">und vieles mehr!</p>
         </div>
       </div>
     </div>

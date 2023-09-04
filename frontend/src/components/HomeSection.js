@@ -58,7 +58,9 @@ function HomeSection() {
             <p className="home-content-left-p">
               Egal ob Sie langfristige Elektroinstallationen planen oder bei
               spontanen Elektro-Notfällen Hilfe benötigen – wir sind für Sie da.
-              Melden Sie sich einfach telefonisch oder per E-Mail.
+              <span className="home-content-p2">
+                &nbsp;Melden Sie sich einfach telefonisch oder per E-Mail.
+              </span>
             </p>
             <button className="home-btn">
               {" "}

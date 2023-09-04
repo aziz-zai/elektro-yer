@@ -82,6 +82,13 @@
     font-size: 2rem;
 }
 
+ @media screen and (max-width: 500px) {
+        .home-content-p2{
+           display: none;
+        }
+    }
+
+
 @media screen and (max-width: 1300px) {
     .home-content-left-h2{
        font-size: 1.5rem
@@ -427,6 +434,18 @@ width:500px
     }
 }
 
+.about-text-item-usw{
+    margin: 0;
+    font-size: 1rem;
+    display: flex;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 1000px) {
+    .about-text-item-usw{
+        font-size: 1.1rem;
+    }
+}
 
 .about-text-item:nth-child(even){
    color:#d05706
