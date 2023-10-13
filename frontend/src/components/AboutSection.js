@@ -32,7 +32,7 @@ function AboutSection() {
           <p className="about-text-item">VDE-Prüfung</p>
           <p className="about-text-item">TV&Satanlagen</p>
           <p className="about-text-item">Netzwerktechnik</p>
-          <p className="about-text-item">Türsprehanlagen</p>
+          <p className="about-text-item">Türsprechanlagen</p>
           <p className="about-text-item">Zählerplatzanlagen</p>
           <p className="about-text-item">Photovoltaikanlagen</p>
           <p className="about-text-item">Brandmeldeanlagen</p>
