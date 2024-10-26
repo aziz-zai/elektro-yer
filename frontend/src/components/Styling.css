@@ -26,6 +26,22 @@
     }
 }
 
+.footer-links {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
 .home-background{
     background-image: 
     linear-gradient(

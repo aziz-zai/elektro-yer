@@ -1,7 +1,8 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import EmailIcon from "@mui/icons-material/Email";
 import LanguageIcon from "@mui/icons-material/Language";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
-import React from "react";
 import "./Styling.css";
 
 const Footer = () => {
@@ -25,6 +26,8 @@ const Footer = () => {
           <p className="footer-p">
             <LanguageIcon /> www.elektro-yer.de
           </p>
+        <Link to="/impressum" className="footer-link">Impressum</Link>
+        <Link to="/datenschutz" className="footer-link">Datenschutzerklärung</Link>
         </div>
       </div>
     </div>
